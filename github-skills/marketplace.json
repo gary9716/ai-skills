@@ -1,0 +1,53 @@
+{
+  "name": "github",
+  "displayName": "GitHub Operations",
+  "description": "Interact with GitHub using gh CLI - create PRs, read PRs, comment on PRs, push and pull commits",
+  "version": "1.0.0",
+  "author": "gary",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "git",
+    "pull-request",
+    "pr",
+    "gh",
+    "cli",
+    "version-control",
+    "collaboration"
+  ],
+  "category": "developer-tools",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "skills": [
+    {
+      "name": "github",
+      "entrypoint": "SKILL.md",
+      "userInvocable": true,
+      "modelInvocable": true
+    }
+  ],
+  "dependencies": {
+    "cli": ["gh", "git"]
+  },
+  "compatibility": {
+    "claudeCode": ">=1.0.0"
+  },
+  "files": [
+    "SKILL.md",
+    "reference.md",
+    "examples.md"
+  ],
+  "commands": {
+    "create-pr": "Create a new pull request",
+    "read-pr": "View pull request details",
+    "comment-pr": "Comment on a pull request",
+    "push": "Push commits to remote",
+    "pull": "Pull commits from remote"
+  }
+}
