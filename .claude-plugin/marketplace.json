@@ -2,14 +2,21 @@
   "name": "ai-skills",
   "owner": {
     "name": "gary",
-    "type": "user"
+    "email": ""
+  },
+  "metadata": {
+    "description": "A collection of AI skills for Claude Code",
+    "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "github",
-      "description": "Interact with GitHub using gh CLI - create PRs, read PRs, comment on PRs, push and pull commits",
-      "version": "1.0.0",
-      "source": "github"
+      "name": "github-skills",
+      "description": "GitHub operations using gh CLI - create PRs, read PRs, comment on PRs, push and pull commits",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/github"
+      ]
     }
   ]
 }
