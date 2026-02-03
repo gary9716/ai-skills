@@ -1,4 +1,5 @@
 {
+  "name": "ai-skills",
   "owner": {
     "name": "gary",
     "type": "user"
@@ -6,54 +7,12 @@
   "plugins": [
     {
       "name": "github",
-      "displayName": "GitHub Operations",
       "description": "Interact with GitHub using gh CLI - create PRs, read PRs, comment on PRs, push and pull commits",
       "version": "1.0.0",
-      "license": "MIT",
-      "keywords": [
-        "github",
-        "git",
-        "pull-request",
-        "pr",
-        "gh",
-        "cli"
-      ],
-      "category": "developer-tools",
-      "skills": [
-        {
-          "name": "github",
-          "displayName": "GitHub Operations",
-          "description": "Interact with GitHub using gh CLI - create PRs, read PRs, comment on PRs, push and pull commits",
-          "entrypoint": "github/SKILL.md",
-          "userInvocable": true,
-          "modelInvocable": true,
-          "commands": {
-            "create-pr": {
-              "description": "Create a new pull request",
-              "usage": "/github create-pr"
-            },
-            "read-pr": {
-              "description": "View pull request details",
-              "usage": "/github read-pr <number>"
-            },
-            "comment-pr": {
-              "description": "Comment on a pull request",
-              "usage": "/github comment-pr <number> [message]"
-            },
-            "push": {
-              "description": "Push commits to remote",
-              "usage": "/github push"
-            },
-            "pull": {
-              "description": "Pull commits from remote",
-              "usage": "/github pull"
-            }
-          },
-          "dependencies": {
-            "cli": ["gh", "git"]
-          }
-        }
-      ]
+      "source": {
+        "type": "local",
+        "path": "github"
+      }
     }
   ]
 }
