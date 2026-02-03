@@ -27,7 +27,7 @@
   "skills": [
     {
       "name": "github",
-      "entrypoint": "SKILL.md",
+      "entrypoint": "skills/github/SKILL.md",
       "userInvocable": true,
       "modelInvocable": true
     }
@@ -39,9 +39,9 @@
     "claudeCode": ">=1.0.0"
   },
   "files": [
-    "SKILL.md",
-    "reference.md",
-    "examples.md"
+    "skills/github/SKILL.md",
+    "skills/github/reference.md",
+    "skills/github/examples.md"
   ],
   "commands": {
     "create-pr": "Create a new pull request",
