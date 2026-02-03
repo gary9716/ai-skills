@@ -9,10 +9,7 @@
       "name": "github",
       "description": "Interact with GitHub using gh CLI - create PRs, read PRs, comment on PRs, push and pull commits",
       "version": "1.0.0",
-      "source": {
-        "type": "local",
-        "path": "github"
-      }
+      "source": "github"
     }
   ]
 }
