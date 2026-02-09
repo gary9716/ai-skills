@@ -17,6 +17,15 @@
       "skills": [
         "./skills/github"
       ]
+    },
+    {
+      "name": "pgsql-skills",
+      "description": "PostgreSQL query skill - execute read-only SQL queries with Prisma schema awareness",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/pgsql"
+      ]
     }
   ]
 }
