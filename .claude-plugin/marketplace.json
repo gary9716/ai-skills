@@ -26,6 +26,15 @@
       "skills": [
         "./skills/pgsql"
       ]
+    },
+    {
+      "name": "quant-reader-skills",
+      "description": "Quantitative finance paper and book reader - extract insights, formulas, methodology, backtesting results, and actionable trading notes from PDFs",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/quant-reader"
+      ]
     }
   ]
 }
