@@ -35,6 +35,15 @@
       "skills": [
         "./skills/quant-reader"
       ]
+    },
+    {
+      "name": "factor-lab-skills",
+      "description": "Factor analysis and mining framework for Taiwan stock quantitative strategies - IC analysis, scorecards, incremental testing, correlation, decay scanning",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/factor-lab"
+      ]
     }
   ]
 }
